@@ -36,7 +36,7 @@ p {
 }
 
 .main-page-wrapper {
-  background: url(https://www.bestsiling.ru/images/gory/21.jpg) center top no-repeat, url(img/elephant-small.png) right bottom 307px no-repeat;
+  background: url(img/elephant.png) center top no-repeat, url(img/elephant-small.png) right bottom 307px no-repeat;
 }
 
 .container {
