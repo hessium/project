@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/blocks/main.css">
+  <link rel="stylesheet" href="/css/blocks/main.css">
   <title>Document</title>
 </head>
 
@@ -120,7 +120,7 @@
           <li class="news__item">
             <img src="img/plain.png" alt="Новый год" class="news__cover">
             <div class="news__text-content">
-              <time class="news__date">Декабрь 2019</time>
+              <div class="news__date">Декабрь 2019</div>
               <div class="news__title">Дешевые путевки на Новый год!</div>
               <div class="news_desc">
                 Проведи новый год в Тайланде
@@ -130,7 +130,7 @@
           <li class="news__item">
             <img src="img/Surfer.png" alt="Новый год" class="news__cover">
             <div class="news__text-content">
-              <time class="news__date">Декабрь 2019</time>
+              <div class="news__date">Декабрь 2019</div>
               <div class="news__title">Акция для серфенгистов!</div>
               <div class="news_desc">
                 В сезон больших волн скидка на путевку в Тайланд на остров 
@@ -156,7 +156,7 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section__about">
       <div class="container">
         <div class="about">
           <div class="about__desc">
@@ -174,18 +174,17 @@
     <footer class="footer-container">
       <div class="container footer-container__content">
         <div class="footer">
-          <header class="header">
-            <a href="/" class="logo">
+            <a href="/" class="logo footer__logo">
               <img src="img/logo.png" alt="asia" class="logo__img">
             </a>
-            <nav class="menu">
+            <nav class="menu footer__menu">
               <ul class="menu__list">
                 <li class="menu__item menu__item--active"><a href="#" class="menu__link">Главная</a></li>
                 <li class="menu__item menu__item--active"><a href="#" class="menu__link">Услуги</a></li>
                 <li class="menu__item menu__item--active"><a href="#" class="menu__link">Отзывы</a></li>
               </ul>
             </nav>
-            <ul class="socials">
+            <ul class="socials footer__socials">
               <li class="socials__item socials__item--icon--telegram">
                 <a href="" class="socials__link "></a>
               </li>
@@ -199,11 +198,10 @@
                 <a href="" class="socials__link"></a>
               </li>
             </ul>
-            <address class="contacts">
+            <address class="contacts footer__contacts">
               <div class="contacts__desc">Бесплатный звонок по Росии</div>
               <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
             </address>
-          </header>
         </div>
       </div>
     </footer>  
