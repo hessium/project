@@ -53,7 +53,7 @@ body, html {
 }
 
 .main-page-wrapper {
-  background: url(/img/elephant.png) center top no-repeat, url(/img/elephant-small.png) right bottom 307px no-repeat;
+  background: url(../../img/elephant.png) center top no-repeat, url(../../img/elephant-small.png) right bottom 307px no-repeat;
 }
 
 .container {
@@ -397,12 +397,12 @@ margin-right: 0;
   content: "";
   width: 488px;
   height: 502px;
-  background: url(/img/gates.png) center center / cover no-repeat;
+  background: url(../../img/gates.png) center center / cover no-repeat;
   display: flex;
 }
 
 .about__desc {
-  background: url(/img/mountains.png);
+  background: url(../../img/mountains.png);
   padding: 87px 80px 50px;
   max-width: 780px;
   margin-left: -142px;
@@ -475,35 +475,35 @@ display: flex;
 }
 
 .socials__item--icon--telegram .socials__link {
-  background-image: url(/img/telegram.png);
+  background-image: url(../../img/telegram.png);
 }
 
 .socials__item--icon--telegram .socials__link:hover {
-  background-image: url(/img/telegram.png);
+  background-image: url(../../img/telegram.png);
 }
 
 .socials__item--icon--vk .socials__link {
-  background-image: url(/img/vk.png);
+  background-image: url(../../img/vk.png);
 }
 
 .socials__item--icon--vk .socials__link:hover {
-  background-image: url(/img/vk.png);
+  background-image: url(../../img/vk.png);
 }
 
 .socials__item--icon--fb .socials__link {
-  background-image: url(/img/f.png);
+  background-image: url(../../img/f.png);
 }
 
 .socials__item--icon--fb .socials__link:hover {
-  background-image: url(/img/f.png);
+  background-image: url(../../img/f.png);
 }
 
 .socials__item--icon--insta .socials__link {
-  background-image: url(/img/in.png);
+  background-image: url(../../img/in.png);
 }
 
 .socials__item--icon--insta .socials__link:hover {
-  background-image: url(/img/in.png);
+  background-image: url(../../img/in.png);
 }
 
 
@@ -511,7 +511,7 @@ display: flex;
 
 .top-line {
   min-height: 415px;
-  background: url(/img/headline.png) right 20% top no-repeat;
+  background: url(../../img/headline.png) right 20% top no-repeat;
   display: flex;
   flex-direction: column;
   padding-bottom: 23.5px;
