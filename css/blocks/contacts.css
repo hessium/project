@@ -1,0 +1,17 @@
+.contacts__desc {
+  color: #9A9A9A;
+  font-size: 11px;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.contacts__dropdown-title {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+}
