@@ -10,7 +10,8 @@
 }
 
 .btn--color--ginger {
-background: #F5170E;
+  background: #F5170E;
+  padding: 16px 55px;
 }
 
 .btn:hover {
