@@ -1,6 +1,12 @@
+.contacts {
+  font-style: normal;
+}
+
 .contacts__desc {
   color: #9A9A9A;
-  font-size: 11px;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .contacts__phone {

@@ -1,7 +1,7 @@
 .inner-section {
   background: #fff;
   color: #202123;
-  padding: 95px 0;
+  padding: 78px 0;
 }
 
 .inner-section--bg--grey {
@@ -11,16 +11,20 @@
 .inner-section__title {
   font-size: 48px;
   font-weight: bold;
-  margin-bottom: 75px;
+  margin-bottom: 56px;
 }
 
+.inner-section__title-form {
+  margin-bottom: 46px;
+}
 .partners {
   display: flex;
   flex-wrap: wrap;
 }
 
 .partners__item {
-  margin-left: 46px;
+  margin-left: 56px;
+  flex-grow: 1;
 }
 
 .partners__item:nth-child(4n +  1) {
@@ -30,8 +34,8 @@
 .partners__link {
   text-decoration: none;
   display: flex;
-  width: 250px;
-  height: 100px;
+  min-width: 210px;
+  max-width: 294px;
+  height: 121px;
   align-items: center;
-  justify-content: center;
 }

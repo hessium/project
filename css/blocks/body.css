@@ -44,6 +44,12 @@ body, html {
   height: 100%;
 }
 
+.button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -53,7 +59,7 @@ body, html {
 }
 
 .main-page-wrapper {
-  background: url(../../img/elephant.png) center top no-repeat, url(../../img/elephant-small.png) right bottom 307px no-repeat;
+  background: url(/img/elephant.png) center top no-repeat, url(/img/elephant-small.png) right bottom 307px no-repeat;
 }
 
 .container {
