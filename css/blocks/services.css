@@ -1,6 +1,6 @@
 .top-line {
   min-height: 415px;
-  background: url(/img/headline.png) right 20% top no-repeat;
+  background: url(../../img/headline.png) right 20% top no-repeat;
   display: flex;
   flex-direction: column;
   padding-bottom: 23.5px;
