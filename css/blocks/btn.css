@@ -11,9 +11,12 @@
 
 .btn--color--ginger {
   background: #F5170E;
+  padding: 16px 38px;
+}
+.btn--color--ginger--preview {
   padding: 16px 55px;
 }
-
+  
 .btn:hover {
   background: #F5170E;
   box-shadow: 0 0 25px 0 rgba(223, 181, 109, .15)
