@@ -1,6 +1,6 @@
 .separator {
-  background: url(/img/feedback/couple.png) right 30% bottom  no-repeat,
-  url(/img/feedback/Rectangle.png);
+  background: url(../../img/feedback/couple.png) right 30% bottom  no-repeat,
+  url(../../img/feedback/Rectangle.png);
   min-height: 363px;
   display: flex;
   flex-direction: column;
