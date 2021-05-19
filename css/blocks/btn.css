@@ -7,40 +7,78 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  transition: .4s;
 }
 
 .btn--color--ginger {
-  background: #F5170E;
-  padding: 16px 38px;
+background: #F5170E;
+padding: 16px 35px;
+transition: .4s;
 }
-.btn--color--ginger--preview {
+
+.btn--color--preview {
   padding: 16px 55px;
-  background: #F5170E;
+  transition: .4s;
 }
-  
+
 .btn:hover {
   background: #F5170E;
-  box-shadow: 0 0 25px 0 rgba(223, 181, 109, .15)
+  box-shadow: 0 0 25px 0 rgba(223, 181, 109, .15);
+  transition: .4s;
 }
 
 .btn--color--red{
   background: #fff;
-  color: red;
+  color: #F5170E;
   font-size: 14px;
-  border: 2px solid red;
+  border: 2px solid #F5170E;
   border-radius: 35px;
   height: 55px;
+  transition: .4s;
 }
 
 .btn--color--red:hover {
-  background: red;
+  background: #F5170E;
   color: #fff;
+  transition: .4s;
 }
 
 .btn--color--grey {
   background: #2B2B2B;
+  transition: .4s;
 }
 
 .btn--color--grey:hover {
   background: red;
+  transition: .4s;
+}
+
+.btn--color--reset {
+  background: #8E8E8E;
+  color: #fff;
+  border: 2px solid #8E8E8E;
+  transition: .4s;
+}
+
+.btn--color--reset:hover {
+  background: #2B2B2B;
+  color: #fff;
+  border: 2px solid #2B2B2B;
+  transition: .4s;
+}
+
+.btn--color--submit {
+  background: #F5170E;
+  color: #fff;
+  font-size: 14px;
+  border: 2px solid #F5170E;
+  border-radius: 35px;
+  height: 55px;
+  transition: .4s;
+}
+
+.btn--color--submit:hover {
+  background: #F5170E;
+  color: #fff;
+  transition: .4s;
 }

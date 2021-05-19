@@ -47,6 +47,12 @@
   color: #FFFFFF;
 }
 
+.pager__link:hover {
+  background: #FFFFFF;
+  color: #F5170E;
+  transition: .5s;
+}
+
 .pager__link-service {
   color: #000000;
 }

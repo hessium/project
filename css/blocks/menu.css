@@ -7,7 +7,7 @@
 }
 
 .menu__item--active .menu__link {
-color: #fff;
+  color: #fff;
 }
 
 .menu__item:last-child {
@@ -21,4 +21,6 @@ color: #fff;
 
 .menu__link:hover {
   color: #fff;
+  transition: .5s;
+  text-decoration: underline;
 }

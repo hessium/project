@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   background: url(../../img/shades.png) center  no-repeat,
-  url(../../img/feedback/bg.png) center bottom / cover no-repeat;
+   url(../../img/feedback/bg.png) center bottom / cover no-repeat;
 }
 
 .central {
@@ -22,7 +22,6 @@
   font-size: 18px;
   margin-bottom: 53px;
 }
-
 
 .central--asia {
   opacity: 0;

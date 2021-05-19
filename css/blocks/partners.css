@@ -17,6 +17,7 @@
 .inner-section__title-form {
   margin-bottom: 46px;
 }
+
 .partners {
   display: flex;
   flex-wrap: wrap;
@@ -38,4 +39,9 @@
   max-width: 294px;
   height: 121px;
   align-items: center;
+  filter: grayscale(100%)
+}
+
+.partners__link:hover {
+  filter: grayscale(0);
 }
