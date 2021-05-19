@@ -19,6 +19,12 @@ transition: .4s;
 .btn--color--preview {
   padding: 16px 55px;
   transition: .4s;
+  background: #F5170E;
+}
+
+.btn--color--preview {
+  transition: .4s;
+  background: #DA0100;
 }
 
 .btn:hover {
