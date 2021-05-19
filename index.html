@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=1200, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/blocks/main_one.css">
   <title>Document</title>
 </head>
 
@@ -17,21 +17,29 @@
       <div class="container hero__container">
       <header class="header">
         <div class="header__col">
-          <a href="/" class="logo">
+          <a href="preview.html" class="logo">
             <img src="img/logo.png" alt="asia" class="logo__img">
           </a>
           <nav class="menu">
             <ul class="menu__list">
-              <li class="menu__item menu__item--active"><a href="#" class="menu__link">Главная</a></li>
-              <li class="menu__item menu__item--active"><a href="#" class="menu__link">Услуги</a></li>
-              <li class="menu__item menu__item--active"><a href="#" class="menu__link">Отзывы</a></li>
+              <li class="menu__item menu__item--active"><a href="index.html" class="menu__link">Главная</a></li>
+              <li class="menu__item menu__item--active"><a href="service.html" class="menu__link">Услуги</a></li>
+              <li class="menu__item menu__item--active"><a href="feedback.html" class="menu__link">Отзывы</a></li>
             </ul>
           </nav>
         </div>
-        <div class="header__col header__col--align-right">
+        <div class="header__col header__col--align-right">  
           <address class="contacts">
             <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-            <div class="contacts__dropdown-title">График работы</div>
+            <div class="dropdown">
+              <a href="#" class="dropdown__link">График работы</a>
+             <div class="dropdown__menu">
+              <ul class="dropdown__list">
+                <li class="dropdown__item">пн-вс: 09:00 - 20:00</li>
+                <li class="dropdown__item dropdown__item-dinner">Обед: 14:00-14:30</li>
+              </ul>
+             </div>
+            </div>
           </address>
         </div>
       </header>
@@ -39,7 +47,7 @@
         <div class="hero__text-section">
           <h1 class="hero__title">Авторские туры по Азии</h1>
           <h4 class="hero__subtitle">Открой для себя Азию</h4>
-          <a href="#" class="btn btn--color--ginger">Подробнее</a>
+          <a href="service.html" class="btn btn--color--ginger">Подробнее</a>
         </div>
       </div>
       </div>
@@ -112,7 +120,7 @@
                 </div>
                 <div class="offers__feature">
                   <div class="offers__feature-icon">
-                    <img src="img/meal.png" alt="calendar" class="offers_feature-icon">
+                    <img src="/img/meal.png" alt="calendar" class="offers_feature-icon">
                   </div>
                   <div class="offers__feature-text">Завтраки</div>
                 </div>
@@ -189,14 +197,14 @@
       <div class="container footer-container__content">
         <div class="footer footer-container__section">
           <div class="footer__col">            
-            <a href="#" class="logo footer__logo">
+            <a href="index.html" class="logo footer__logo">
             <img src="img/logo.png" alt="asia" class="logo__img">
           </a>
           <nav class="menu footer__menu">
             <ul class="menu__list">
-              <li class="menu__item menu__item--active"><a href="#" class="menu__link">Главная</a></li>
-              <li class="menu__item menu__item--active"><a href="#" class="menu__link">Услуги</a></li>
-              <li class="menu__item menu__item--active"><a href="#" class="menu__link">Отзывы</a></li>
+              <li class="menu__item menu__item--active"><a href="index.html" class="menu__link">Главная</a></li>
+              <li class="menu__item menu__item--active"><a href="service.html" class="menu__link">Услуги</a></li>
+              <li class="menu__item menu__item--active"><a href="feedback.html" class="menu__link">Отзывы</a></li>
             </ul>
           </nav>
         </div>

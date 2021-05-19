@@ -1,0 +1,63 @@
+.top-line {
+  min-height: 415px;
+  background: url(../../img/headline.png) right 20% top no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 23.5px;
+}
+
+.top-line__container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-title {
+  font-size: 72px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.page-content {
+background: #fff;
+color: #303030;
+padding: 48px 0 92px;
+}
+
+.services {
+  margin-bottom: 65px;
+  margin-top: 62px;
+}
+
+.service {
+  display: flex;
+  margin-bottom: 41px;
+  text-decoration: none;
+}
+
+.service:hover .service__btn {
+  background: red;
+  color: #fff;
+}
+
+.service__img {
+  width: 41%;
+  margin-right: 5%;
+}
+
+.service__content  {
+  flex: 1;
+}
+
+.service__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 26px;
+  color: #000000;
+}
+
+.service__decs {
+  line-height: 1.7;
+  margin-bottom: 37px;
+}
