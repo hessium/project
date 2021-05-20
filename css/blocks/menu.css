@@ -17,10 +17,10 @@
 .menu__link {
   font-size: 14px;
   text-decoration: none;
+  transition: .5s;
 }
 
 .menu__link:hover {
-  color: #fff;
+  color: #DA0100;
   transition: .5s;
-  text-decoration: underline;
 }
