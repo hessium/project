@@ -29,6 +29,10 @@
   justify-content: flex-end;
 }
 
+.dropdown__link:hover {
+  color: #ffffff 
+}
+
 .dropdown:hover .dropdown__menu {
   left: 0;
   opacity: 1;
