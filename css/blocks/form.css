@@ -11,7 +11,8 @@
   background: #fff;
   padding: 22px 30px;
   font-size: 18px;
-  color: #1A1B1E;  
+  color: #1A1B1E; 
+  line-height: 1;
 }
 
 .form__input::placeholder {
